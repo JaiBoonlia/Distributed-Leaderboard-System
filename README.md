@@ -58,7 +58,7 @@ cd secure-distributed-leaderboard
 Before running the server, generate a self-signed certificate:
 
 ```
-python generate_cert.py
+python cert.py
 ```
 
 This will create:
