@@ -1,4 +1,4 @@
-# Secure Distributed Leaderboard System
+# Distributed Leaderboard System
 
 ## Overview
 This project implements a secure distributed leaderboard system using low-level TCP socket programming. Multiple clients can connect to a central server to submit scores and retrieve leaderboard rankings.
