@@ -5,6 +5,7 @@ HOST = "localhost"
 PORT = 5000
 
 context = ssl._create_unverified_context()
+context.load_verify_locations("server.crt")
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 conn = context.wrap_socket(sock, server_hostname=HOST)
